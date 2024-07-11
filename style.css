@@ -1,0 +1,50 @@
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* /* Hide the arrows in label inp */
+body{
+background-color: rgb(68, 82, 171);
+width: 1400px;
+height: 800px;
+}
+.content{
+    width: 400px;
+    height: 620px;
+    display: flex;
+    flex-wrap: wrap;
+   margin-left: 500px;
+   margin-top: 90px;
+}
+.btn{
+   width: 100px;
+   height: 100px;
+   flex: 0 0 100px;
+   background-color: rgb(88, 87, 87);
+   color: rgb(225, 230, 131);
+   font-size: 20px;
+}
+.btn0{
+    flex: 0 0 200px;
+}
+.btnEq{
+    background-color: rgb(236, 166, 37);
+    font-size: 30px;
+    color: black;
+}
+.btnOp{
+    background-color: rgb(236, 166, 37);
+    color: black;
+   font-size: 25px;
+}
+.label{
+    width: 358px;  
+    height: 80px; 
+    padding: 10px;
+    border: none;
+    background-color: rgb(125, 118, 116);
+    font-size: 70px;
+    text-align: end;
+    border: 10px solid rgb(114, 109, 109);
+}
